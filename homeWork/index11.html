@@ -1,0 +1,14 @@
+<script>
+
+	var dot = 10;
+	setTimeout(function run(){
+		document.write( dot + '<br>');
+		dot --;
+		if (dot == 0){
+			return ;
+			// clearTimeut(q);
+		}
+		var q = setTimeout(run , 100)
+	},100)
+
+</script>

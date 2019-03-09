@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+// 		Регулярные выражения
+
+// #2 Дана строка 'aaa@bbb@ccc'. Замените все @ на '!' с помощью глобального поиска и замены.
+
+		var str = "aaa@bbb@ccc";
+		var sign = "!";
+		function provNumb(str,sign){
+			var reg = /\@/g;
+			alert( str.replace( reg , sign ) )
+		}
+		provNumb(str,sign);
+	</script>	
+</body>
+</html>

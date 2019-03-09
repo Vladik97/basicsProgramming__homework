@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+		var login=prompt("Кто пришел!");
+		if (login=='Админ'){
+
+			var pass=prompt("Пароль!");
+
+				if (pass=='Чёрный Властелин'){
+				alert ('Добро пожаловать!');
+				} 
+
+				else if (pass==null) {
+				alert ('Вход отменен');
+				}
+
+				else {
+				alert ('Я вас не знаю');
+				}
+
+		}
+		else if  (login==null) {
+			alert ('Вход отменен');
+		}
+
+		else  {
+			alert ('Я вас не знаю');
+		}
+
+	</script>
+</body>
+</html>

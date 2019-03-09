@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Вакансии</title>
+    <style type="text/css">
+    	body {background:#e8e8e8;}
+    	.Cd4 { color:#d42037; }
+    	.story {
+			width: 400px;
+			height: 50px
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Форма заявки на работу в зоопарке</h1>
+	<p><i>Пожалуйста, заполните форму.Обязательные слова помечены<span class="Cd4">*</span><i></p>
+		<form>
+		  	<fieldset>
+			    <legend>Контактная информация</legend>
+			    	<table>
+					        <tr>
+					            <td><label for="name">Имя<span class="Cd4">*</span></label></td>
+					            <td><input type="text" id="name" placeholder=" Ваше имя"></td>
+					        </tr>
+					        <tr>
+					            <td><label for="tel">Телефон</label></td>
+					            <td><input type="tel" id="tel" placeholder=" Ваш номер телефона"></td>
+					        </tr>
+					        <tr>
+					            <td><label for="email">E-mail<span class="Cd4">*</span></label></td>
+					            <td><input type="email" id="email" placeholder=" Ваш E-mail"></td>
+					        </tr>
+					</table>       
+		  	</fieldset>
+		</form>
+		<form>
+		  	<fieldset>
+			    <legend>Персональная информация</legend>
+			    	<table>
+					        <tr>
+					            <td><label for="age">Возраст<span class="Cd4">*</span></label></td>
+					            <td><input type="text" id="age" placeholder=" Сколько вам лет?"></td>
+					        </tr>
+					        <tr>
+					            <td><label for="tel">Пол</label></td>
+					            <td><select name="EightiesBands" size="1" multiple><option selected>Мужчина</option><option selected>Женщина</option></select></td>
+					        </tr>
+					        <tr>
+					            <td><label for="information">Не много о себе</label></td>
+					            <td><textarea rows="8" id="information" name="information" class="story" style="background: width: 300px;"></textarea>
+					        </tr>
+					</table>       
+		  	</fieldset>
+		</form>
+		<form>
+		  	<fieldset>
+			    <legend>Выберите ваших любимых животных</legend>
+			    	<table>
+					        <tr>
+					            <td><input type="checkbox" id="animal" name="interest" value="animal"></td>
+					            <td><label for="animal">Зебра</label></td>
+					        
+					            <td><input type="checkbox" id="animal" name="interest" value="animal"></td>
+					            <td><label for="animal">Кошка</label></td>
+
+					            <td><input type="checkbox" id="animal" name="interest" value="animal"></td>
+					            <td><label for="animal">Анаконда</label></td>
+
+					            <td><input type="checkbox" id="animal" name="interest" value="animal"></td>
+					            <td><label for="animal">Человек</label></td>
+					        </tr>
+					        <tr>
+					            <td><input type="checkbox" id="animal" name="interest" value="animal"></td>
+					            <td><label for="animal">Слон</label></td>
+
+					            <td><input type="checkbox" id="animal" name="interest" value="animal"></td>
+					            <td><label for="animal">Антилопа</label></td>
+
+					            <td><input type="checkbox" id="animal" name="interest" value="animal"></td>
+					            <td><label for="animal">Голубь</label></td>
+
+					            <td><input type="checkbox" id="animal" name="interest" value="animal"></td>
+					            <td><label for="animal">Краб</label></td>
+					        </tr>
+					</table>       
+		  	</fieldset>
+		</form>
+		<form>
+		  	<fieldset>
+			    <legend>Есть ли у вас опыт работы?</legend>
+			    	<table>
+					        <tr>
+					            <td><label><input type="radio" checked name="dva"/> Да</label> <label><input type="radio" name="dva"/> Нет</label></td>
+					        </tr>
+					</table>       
+		  	</fieldset>
+		</form>
+		<p><input type="submit" value="Отправить"></p>
+</body>
+</html>
+ 

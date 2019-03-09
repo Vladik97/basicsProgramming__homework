@@ -1,0 +1,4 @@
+body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт навеб-странице */
+    clear: both; /* Отменяем действие float */
+}

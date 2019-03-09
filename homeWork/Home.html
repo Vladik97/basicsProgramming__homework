@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+//1		
+		// function wruteword(){
+		// 	var word = prompt('Vvedite slovo!', '');
+		// 	return document.write("V vashem slove "+word.length+" bucv!"   );
+		// }
+		// 	wruteword();
+
+//Считает сколько букв в слове	
+
+//2
+		// function wruteword(){
+		// 	var word = prompt('Vvedite slovo!', '');
+		// 	if (word.length > 10){
+		// 		alert( "В вашем слове больше 10 букв!" );
+		// 	}else{
+		// 		alert( "В вашем слове меньше 10 букв!");
+		// 	}
+		// }
+		// 	wruteword();
+
+//Выводит больше 10 или меньше букв в слове	
+
+//3
+		// var troy_reqest = "ёлка";
+		// var passvord = prompt('Что и зимой и летом одним цветом?', '');
+		// var b=passvord.toLowerCase();
+		// 	if ( b == troy_reqest ) {
+		//  		alert( "И это правельный ответ!" );
+		// 	} 
+		// 	else {
+		// 		alert( "Это не верно!");
+		// 	}	
+
+//Работает как пароль (сравнивает пароль без учета размера БуКв)
+
+//4
+		// var mySite = "http://crispwp.com/";
+		// function testAdres() {
+		// 	if ( mySite.indexOf("http://") >= 0 ){
+		// 		document.write( "В названии сайта присутствует указание протокола http:")
+		// 	}
+		// 	else {
+		// 	 	document.write( "В названии сайта не присутствует указание протокола http:")
+		// 	}	
+		// }
+		// testAdres();
+
+//Работает как поиск (на "http://")
+
+//5
+		// var myStr = "Хороший день."
+		// var day = myStr.slice(7);//вырезает 7 символов с лево на право "Хороший"
+		// alert(day);
+
+//Вырезать из строковой переменой слово (день) и вывести его
+
+//6			
+		// var students = ["Илья","Greg", "Алина"];
+		// 	function rus_leters ()
+		//	{
+		// 		for (var a = 0; a < students.length ;a++)
+		//		{
+		// 			var b = students[a];
+		// 			for(var c = 0; c < b.length; c++)
+		//			{
+		// 				if (b.charCodeAt(c) < 1040 || b.charCodeAt(c) > 1103 ) 
+		//				{
+		// 					document.write( b.charAt(c) + "<br/>");
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// rus_leters ()	
+			
+		// document.write(students.charCodeAt());//выводит буквы по числу
+
+		//// var leters = "АЯая";
+		//// document.write(leters.charCodeAt(0) );
+		//// document.write(leters.charCodeAt(1) );
+		//// document.write(leters.charCodeAt(2) );
+		//// document.write(leters.charCodeAt(3) );
+
+		//// 1040-1103
+
+//Проверяет масив на символы руского алфавита 
+
+//7     
+		// var str = "Меня завут Влад, и я люблю" 
+		// function truncate(str, maxlength) 
+		// {
+		// 	if (str.length > maxlength) 
+		//	{
+		// 		return str.slice(0, maxlength - 3) + '...';
+		// 	    // итоговая длина равна maxlength
+		// 	}
+		// 	return str;
+		// }
+		// alert( truncate(str, 20) );
+
+// Преверяет длину строки и если больше 20 то остальное обрезается		
+
+// 		Создайте функцию truncate(str, maxlength), которая проверяет длину строки str, и если она превосходит maxlength – заменяет конец str на "...", так чтобы ее длина стала равна maxlength.
+
+//8	
+	//8.1
+
+		// var str = "my-short-string"
+		// function camlize(str) 
+		// {
+		// 	var arr = str.split('-');
+		// 		for (var i = 1; i < arr.length; i++) 
+		// 		{
+		// 		    // преобразовать: первый символ с большой буквы
+		// 		    arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+		// 		}
+		// 	return arr.join('');
+		// }
+		// alert( camlize(str) );
+
+	//8.2-----------------------------------
+
+		// var str = "my-short-string"
+		// function camlize(str)
+		// {
+		// 	var arrStr = str.split('-');
+		// 		for(var i=0; i<arrStr.length; ++i)
+		// 		{
+		// 			if ( i == 0 );
+		// 			arrStr =  arrStr[i].split("");
+		// 			arrStr[0] = arrStr[i].charAt(0).toUpperCase();
+		// 			arrStr[i] = arrStr.join("");
+		// 		}
+		// 		str = arrStr.join("");
+		// 		return str;
+		// }      					
+		// 	alert( camlize(str) );
+		
+		
+
+
+// 		Строки вида «my-short-string» преобразовать в «myShortString».
+
+//-------------------------------------------------------------------------------------------------------------------
+
+	//Пример деления
+			// alert( '12.34' / "-2" ); // -6.17
+
+	</script>
+</body>
+</html>

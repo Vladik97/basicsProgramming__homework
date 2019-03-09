@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+//1
+		var forTesting = "8 пингвинов и 9 карасей.";
+		function poiscChisla(forTesting){
+			var reg = /^[0-9]/;
+			var result = forTesting.match(reg);
+			alert(result);
+		}
+		poiscChisla(forTesting);
+
+// 	Написать функцию, которая получает в качестве параметра переменную содержащую строку и с помощью регулярного выражения проверяет, начинается ли содержимое этой переменной с цифры или нет.Результат своей работы функция выводит на экран.
+
+//2 	
+		// var str = "Иван вчера потерял свою кредитку, ее номер 1178-9087-2384-8787 Поэтому он пошел в банк и описал ситуацию. Там пошли ему навстречу и выдали новую кредитку под номером:  1103-8899-0811-1722"
+
+			// function numberCard(str) 
+			// {
+			// 	var reg = /[0-3]{4}(-\d{4}){3}/g;
+			// 	var result = str.match(reg) ;
+			// 	alert(result);
+			// }
+			// numberCard(str);
+//3
+		// var tel = "8/927/31/10/765"
+		// var sign = "-";
+		// function provNumb(tel,sign){
+		// 	var reg = /\//g;
+		// 	alert( tel.replace( reg , sign ) )
+		// }
+		// provNumb(tel,sign);
+
+// 	Написать функцию, которая меняет слэши на дефисы.
+
+	
+///////////
+// var regexp = /лю/;
+// alert( str.search(regexp) );
+// alert(message), prompt(message, default) и confirm(question)
+	</script>
+</body>
+</html>
